@@ -17,8 +17,8 @@
 
 **Each (.zip) file contains 3 files:**
 
- 1. An SQLite3 (.db) file of the 'Ahadith' **with and without** Arabic diacritics (tashkeel تشكيل),
- Elaboration of Hadith (Tafseel  تفصيل الحديث) with Arabic diacritics.
+ 1. An SQLite3 (.db) file of the 'Ahadith' ***with and without** Arabic diacritics (tashkeel تشكيل)*,
+ Elaboration of Hadith (Tafseel  تفصيل الحديث) **with** Arabic diacritics.
  
  2. A (.csv) file of the 'Ahadith' and 'Tafseel' **with** Arabic diacritics.
  3. A (.csv) file of the 'Ahadith' only **without** Arabic diacritics.
