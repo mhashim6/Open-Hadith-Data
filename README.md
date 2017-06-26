@@ -20,8 +20,8 @@
  1. An SQLite3 (.db) file of the 'Ahadith' **with and without** Arabic diacritics (tashkeel تشكيل),
  Elaboration of Hadith (Tafseel  تفصيل الحديث) with Arabic diacritics.
  
- 2. A (.csv) file of the 'Ahadith' and  **with** Arabic diacritics.
- 3. A (.csv) file of the 'Ahadith' **without** Arabic diacritics.
+ 2. A (.csv) file of the 'Ahadith' and 'Tafseel' **with** Arabic diacritics.
+ 3. A (.csv) file of the 'Ahadith' only **without** Arabic diacritics.
  
  >  this structure will overcome Arabic Searching problems stated
 > [here](http://safe.phpclasses.net/browse/view/html/file/12751/name/readme.html), so you can search user's input **without** diacritics, and return results **with** diacritics.
