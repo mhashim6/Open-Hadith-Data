@@ -33,9 +33,11 @@
 
 
 notes:
-
+ - [Android-Open-Hadith-Project](https://github.com/mhashim6/Android-Open-Hadith-Project) is a good example of implementing this project.
  - the code used to remove the diacritics can be found [here](https://gist.github.com/mhashim6/7d96f7ea274c9eb7e509798a332d78ac).
  - UTF-8 encoding is always used.
  - both 'Musnad Ahmad ibn Hanbal' and 'Sunan al-Darimi' don't include elaboration.
+ 
+----------
 
-**The original CSV files can be found in [hadith-islamware repo](https://github.com/ceefour/hadith-islamware).**
+**The original CSV files can be found in [hadith-islamware repository](https://github.com/ceefour/hadith-islamware).**
