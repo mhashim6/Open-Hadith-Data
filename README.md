@@ -5,7 +5,7 @@
  - Sahih Muslim (صحيح مسلم).
  - Sunan Abu-Dawud (سُنن ابي داود).
  - Jami al-Tirmidhi (جامع الترمذي).
- - al-Sunan al-Sughra, collected by al-Nasa'i (السُنن الصغري).
+ - Al-Sunan al-Sughra, collected by al-Nasa'i (السُنن الصغري).
  - Sunan ibn Majah (سُنن بن ماجه).
  - Muwatta Malik (موطأ الإمام مالك).
  - Musnad Ahmad ibn Hanbal (مُسند الإمام أحمد بن حنبل).
@@ -17,7 +17,7 @@
 
 **Each (.zip) file contains 3 files:**
 
- 1. An SQLite3 (.db) file of the 'Ahadith' ***with and without** Arabic diacritics (tashkeel تشكيل)*,
+ 1. An SQLite database (.db) file of the 'Ahadith' ***with and without** Arabic diacritics (tashkeel تشكيل)*,
  Elaboration of Hadith (Tafseel  تفصيل الحديث) **with** Arabic diacritics.
  
  2. A (.csv) file of the 'Ahadith' and 'Tafseel' **with** Arabic diacritics.
@@ -33,7 +33,6 @@
 
 
 notes:
- - [Android-Open-Hadith-Project](https://github.com/mhashim6/Android-Open-Hadith-Project) is a good example of implementing this project.
  - the code used to remove the diacritics can be found [here](https://gist.github.com/mhashim6/7d96f7ea274c9eb7e509798a332d78ac).
  - UTF-8 encoding is always used.
  - both 'Musnad Ahmad ibn Hanbal' and 'Sunan al-Darimi' don't include elaboration.
