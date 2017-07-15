@@ -29,6 +29,8 @@
 
 notes:
  - the version with diacritcs include special RTL character that surrounds special words, such as important words or narrator's names. the original writers did that so developers could highlight these words, more information about how to implement this properly is in [this link](https://stackoverflow.com/a/45018642/3578585).
+ 
+ - if you feel uncomfortable with the RTL character, you can remove it, and you would still be able to highlight some important words, as they are surrounded by 2 spaces at the beginning and another 2 at the end.
  - the vresion **without** diacritcs is completely clean, no RTL character, no double spaces.
  - please don't use the version **without** diacritcs as your main database, alwayse show Hadith with diacritcs, so they can be read properly.
  - the code used to remove the diacritics can be found [here](https://gist.github.com/mhashim6/7d96f7ea274c9eb7e509798a332d78ac).
