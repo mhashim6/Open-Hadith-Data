@@ -28,9 +28,9 @@
 
 
 notes:
- - the version with diacritcs include special RTL character that surrounds special words, such as important words or narrator's names. the original writers did that so developers could highlight these words, more information in [this link](https://stackoverflow.com/questions/45016424/java-regex-to-match-words-enclosed-by-4-spaces).
- - the vresion without diacritcs is completely clean, no RTL character, no double spaces.
- - please don't use the version without diacritcs as your main database, alwayse show Hadith with diacritcs, so they can be read properly.
+ - the version with diacritcs include special RTL character that surrounds special words, such as important words or narrator's names. the original writers did that so developers could highlight these words, more information about how to implement this properly is in [this link](https://stackoverflow.com/a/45018642/3578585).
+ - the vresion **without** diacritcs is completely clean, no RTL character, no double spaces.
+ - please don't use the version **without** diacritcs as your main database, alwayse show Hadith with diacritcs, so they can be read properly.
  - the code used to remove the diacritics can be found [here](https://gist.github.com/mhashim6/7d96f7ea274c9eb7e509798a332d78ac).
  - UTF-8 encoding is always used.
  - both 'Musnad Ahmad ibn Hanbal' and 'Sunan al-Darimi' don't include elaboration.
