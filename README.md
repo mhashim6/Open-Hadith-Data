@@ -15,24 +15,22 @@
 ----------
 
 
-**Each (.zip) file contains 3 files:**
+**Each folder contains 2 files:**
 
- 1. An SQLite database (.db) file of the 'Ahadith' ***with and without** Arabic diacritics (tashkeel تشكيل)*,
- Elaboration of Hadith (Tafseel  تفصيل الحديث) **with** Arabic diacritics.
+ 1. A (.csv) file of the 'Ahadith' and 'Tafseel' **with** Arabic diacritics (tashkeel تشكيل), and Elaboration of Hadith (Tafseel  تفصيل الحديث).
  
- 2. A (.csv) file of the 'Ahadith' and 'Tafseel' **with** Arabic diacritics.
- 3. A (.csv) file of the 'Ahadith' only **without** Arabic diacritics.
+ 2. A (.csv) file of the 'Ahadith' only **without** Arabic diacritics.
  
  >  this structure will overcome Arabic Searching problems stated
-> [here](http://safe.phpclasses.net/browse/view/html/file/12751/name/readme.html), so you can search user's input **without** diacritics, and return results **with** diacritics.
-> 
- >(use [this program](http://sqlitebrowser.org/) to have a better understanding of files' structure).
-
+ > [here](http://safe.phpclasses.net/browse/view/html/file/12751/name/readme.html), so you can search user's input **without** diacritics, and return results **with** diacritics. 
 
 ----------
 
 
 notes:
+ - the version with diacritcs include special RTL character that surrounds special words, such as important words or narrator's names. the original writers did that so developers could highlight these words, more information in [this link](https://stackoverflow.com/questions/45016424/java-regex-to-match-words-enclosed-by-4-spaces).
+ - the vresion without diacritcs is completely clean, no RTL character, no double spaces.
+ - please don't use the version without diacritcs as your main database, alwayse show Hadith with diacritcs, so they can be read properly.
  - the code used to remove the diacritics can be found [here](https://gist.github.com/mhashim6/7d96f7ea274c9eb7e509798a332d78ac).
  - UTF-8 encoding is always used.
  - both 'Musnad Ahmad ibn Hanbal' and 'Sunan al-Darimi' don't include elaboration.
